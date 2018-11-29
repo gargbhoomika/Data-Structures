@@ -6,12 +6,12 @@ int a[10][10],i,j,k,n,stk[10],top,v,visit[10],visited[10],x,y;
 
 main()
 {
-cout <<"enter no. of vertices SIR/MAM!";
+cout <<"Enter no. of vertices SIR/MAM!";
 cin >> n;
-cout<<"sir please enter for undirected grah"<<endl;
+cout<<"Please enter for undirected grah"<<endl;
      cin>>x>>y;
     if(x>=n&&y>=n)
-        cout<<"sir ji please enter within range"<<endl;
+        cout<<"Please enter within range"<<endl;
         else
         {
     while(x!=-1&&y!=-1)
@@ -24,7 +24,7 @@ cout<<"sir please enter for undirected grah"<<endl;
     }
 cout <<"enter initial vertex";
 cin >>v;
-cout <<"AFTER DFS ,SIR ORDER COMES -:"<<endl;
+cout <<"AFTER DFS ,ORDER COMES -:"<<endl;
 cout << v <<" ";
 visited[v]=1;
 k=1;
